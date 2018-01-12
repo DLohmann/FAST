@@ -25,7 +25,7 @@ my $def_format  = $FAST::DEF_FORMAT;  #7/1/13 "fasta";
 my $def_logname = $FAST::DEF_LOGNAME; #7/1/13 "FAST.log.txt";
 my $def_join_string =  $FAST::DEF_JOIN_STRING;
 my $def_print_num = 10;
-my $memory_limit  = 2000000000; # -M 2GB
+my $memory_limit  = 2147483648; # -M 2GB
 
 ## OPTION VARIABLES
 my $man                  = undef;  # --man
